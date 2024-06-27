@@ -8,7 +8,7 @@
 	// font-family: "Lato", sans-serif; font-weight: 400; 700 & 900;
 	
 body {
-	color: $cf-richBlack;
+	color: $black;
 	font-family: "Lato", sans-serif;
 	font-size: clamp(1.4rem, 4.5vw, 1.6rem);
 	font-weight: 500;
@@ -19,12 +19,12 @@ body {
 	}
 }
 .heroHeading {
-	color: $cp-dark-blue;
+	color: $black;
 	font-family: "Montserrat", sans-serif; 
 	font-size: clamp(2rem, 6.5vw, 2.4rem);
 	font-weight: 900;
 	text-align: center;
-	text-shadow: 1px 1px 1px rgba($cp-shamrockGreen, 1);
+	// text-shadow: 1px 1px 1px rgba($cp-shamrockGreen, 1);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	line-height: 1.2;
@@ -49,11 +49,11 @@ body {
 	}
 }
 .headingH2 {
-	color: $cf-dark-blue;
+	color: $black;
 	font-family: "Days One", sans-serif;  
 	font-size: clamp(2rem, 6.5vw, 2.4rem);
 	font-weight: 900;
-	text-shadow: 1px 1px 1px rgba($cf-honoluluBlue, 1);
+	// text-shadow: 1px 1px 1px rgba($cf-honoluluBlue, 1);
 	text-transform: uppercase;
 	line-height: 1.2;
 	letter-spacing: 3px;
@@ -62,26 +62,26 @@ body {
 	}
 }
 .headingH3 {
-	color: $cf-dark-shamrockGreen;
+	color: $black;
 	font-family: "Lato", sans-serif; 
 	font-size: clamp(1.8rem, 5.5vw, 2rem);
 	font-weight: 900;
 	line-height: 1.2;
 	letter-spacing: 3px;
 	&--heroCredentials {
-		color: $cf-dark-shamrockGreen;
+		color: $black;
 		letter-spacing: 1px;
 		text-decoration: underline;
 		text-underline-offset: 3px;
 	}
 	&--aboutOwner {
-		color: $cf-dark-blue;
+		color: $black;
 		letter-spacing: 2px;
 		text-decoration: underline;
 		text-underline-offset: 3px;
 	}
 	&--servicesListItemHeading {
-		color: $cf-dark-shamrockGreen;
+		color: $black;
 		font-size: clamp(1.5rem, 5vw, 1.7rem);
 		text-align: left;
 		line-height: 1.1;
@@ -90,7 +90,7 @@ body {
 		}
 	}
 	&--processListItemHeading {
-		color: $cf-dark-shamrockGreen;
+		color: $black;
 		font-size: clamp(1.5rem, 5vw, 1.7rem);
 		text-align: center;
 		line-height: 1.1;
@@ -99,7 +99,7 @@ body {
 		}
 	}
 	&--footerFigure {
-		color: $cp-dark-blue;
+		color: $black;
 		font-family: "Montserrat", sans-serif; 
 		font-size: clamp(1.8rem, 5vw, 2.4rem);
 		font-weight: 900;
@@ -113,20 +113,20 @@ body {
 	}
 }
 .headingH4 {
-	color: $cf-richBlack;
+	color: $black;
 	font-family: "Lato", sans-serif; 
 	font-size: clamp(1.8rem, 6vw, 2rem);
 	font-weight: 900;
 	line-height: 1.2;
 	letter-spacing: 3px;
 	&--aboutOwner {
-		color: $cf-shamrockGreen;
+		color: $black;
 		font-size: clamp(1.4rem, 6vw, 1.6rem);
 		font-weight: 700;
 		letter-spacing: 1px;
 	}
 	&--serviceAreasHeading {
-		color: $cf-dark-shamrockGreen;
+		color: $black;
 		font-size: clamp(1.5rem, 5vw, 1.7rem);
 		text-align: left;
 		line-height: 1.1;
@@ -151,11 +151,11 @@ body {
 		}
 	}
 	&__serviceAreaName--nylstroom, &__serviceAreaName--warmbad, &__serviceAreaName--vaalwater, &__serviceAreaName--naboom, &__serviceAreaName--leeupoort {
-		color: $cp-richBlack;
+		color: $black;
 		font-weight: 900;
 	} 
 	&--contactArticle {
-		color: $cf-dark-blue;
+		color: $black;
 		font-weight: 700;
 		text-decoration: underline;
 		text-underline-offset: 2px;
@@ -172,7 +172,7 @@ body {
 		}
 	}
 	&--footerAddressDetail {
-		color: $cf-dark-blue;
+		color: $black;
 		text-decoration: underline;
 		text-underline-offset: 3px;
 		@include respond(tab-land) {
@@ -183,39 +183,39 @@ body {
 		font-size: clamp(1.2rem, 5vw, 2rem);
 	}
 	&--footerDeveloper {
-		color: $cf-dark-blue;
+		color: $black;
 		font-weight: 700;
 		font-size: clamp(1.2rem, 4.3vw, 1.4rem);
 	}
 }
 .btn {
 	&--primary {
-		color: $cf-silver;
+		color: $black;
 		font-family: "Lato", sans-serif; 
 		font-size: clamp(1.6rem, 5vw, 1.8rem);
 		font-weight: 500;
 		letter-spacing: 1px;
 	}
 	&--secondary {
-		color: $cf-dark-blue;
+		color: $black;
 		font-family: "Lato", sans-serif; 
 		font-size: clamp(1.6rem, 5vw, 1.8rem);
 		font-weight: 700;
 	}
 }
 .navLink--hamburgerMenuNavlink {
-	color: $cf-dark-blue;
+	color: $black;
 	font-weight: 700;
 }
 .navlink {
 	&--footerNavlink, &__hamburgerMenuNavlink {
-		color: $cf-dark-blue;
+		color: $black;
 		font-weight: 700;
 		text-decoration: underline;
 		text-underline-offset: 3px;
 	}
 	&--footerNavlinkDev {
-		color: $cf-neonBlue;
+		color: $black;
 		font-weight: 700;
 		text-decoration: underline;
 		text-underline-offset: 3px;
@@ -224,7 +224,7 @@ body {
 }
 .logo {
 	&__text {
-		color: $cf-silver;
+		color: $black;
 		font-family: "Lato", sans-serif; 
 		font-size: clamp(1.4rem, 4.5vw, 1.6rem);
 		font-weight: 700;
@@ -240,9 +240,9 @@ body {
 }
 
 .footer {
-	color: $cf-dark-blue;
+	color: $black;
 	&__footerAddressContainer {
-		color: $cf-dark-blue;
+		color: $black;
 		font-style: normal;
 		line-height: 1.2;
 	}

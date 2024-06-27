@@ -3,7 +3,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: $cp-dark-blue;
+      background-color: $yellow;
       padding: 1rem 2rem;
       visibility: hidden;
       opacity: 0;
@@ -22,6 +22,6 @@
       }
   }
   .navbar--background {
-      background-color: $cp-dark-blue;
-      border-bottom: 1px solid $cp-erin;
+      background-color: $yellow;
+      border-bottom: 1px solid $black;
   }

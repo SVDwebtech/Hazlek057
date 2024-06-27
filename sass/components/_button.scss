@@ -1,6 +1,6 @@
 // style button
 .btn {  
-      border: 2px solid $cp-grey;
+      border: 2px solid $silver;
       border-radius: .45rem;
       box-shadow: $bs-btn;
       width: fit-content;
@@ -14,16 +14,16 @@
           transform: translateY(0px);
       }
       &:active {
-          border-bottom: 2px solid $cp-richBlack;
-          border-right: 2px solid $cp-richBlack;
+          border-bottom: 2px solid $black;
+          border-right: 2px solid $black;
           box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .7);
           transform: translateY(-1px);
       }
       &--primary {
-          background-color: $cp-dark-blue;
+          background-color: $denim;
       }
       &--secondary {
           background-color: transparent;
-          border: 2px solid $cp-dark-blue;
+          border: 2px solid $denim;
       }  
   }

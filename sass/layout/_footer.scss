@@ -1,8 +1,8 @@
 .footer {
       @include displayFlexColumn;
       gap: 3rem;
-      background: linear-gradient(135deg, rgba($cp-dark-blue, .65), rgba($cp-darkGrey, .5), rgba($cp-grey, .3), rgba($cp-lightGrey, 1), rgba($cp-darkGrey, .5), rgba($cp-dark-blue, .64));
-      border-top: 2px solid $cp-dark-blue;
+      // background: linear-gradient(135deg, rgba($cp-dark-blue, .65), rgba($cp-darkGrey, .5), rgba($cp-grey, .3), rgba($cp-lightGrey, 1), rgba($cp-darkGrey, .5), rgba($cp-dark-blue, .64));
+      border-top: 2px solid $black;
       width: 100%;
       padding: 5rem 1rem 1rem;
       @include respond(tab-land) {
@@ -34,9 +34,9 @@
       }
       &__logoImg {
             display: flex;
-            order: 2px solid $cp-erin;
+            border: 2px solid $black;
             border-radius: $br-cirle;
-            box-shadow: -3px 3px 25px 1px rgba($cp-richBlack, 1);
+            box-shadow: -3px 3px 25px 1px rgba($black, 1);
             width: 20rem;
             height: auto;
             @include respond(tab-port) {
@@ -59,7 +59,7 @@
             @include respond(tab-land) {
                   align-self: center;
                   display: block;
-                  background-color: rgba($cp-dark-blue, .15);
+                  background-color: rgba($black, .15);
                   width: 2px;
                   height: 15rem;
             }

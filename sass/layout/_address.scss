@@ -47,16 +47,16 @@
             gap: .75rem;
       }
       &__contactDetailIcon {
-            width: $contactDetailIconSizeWidth;
-            height: $contactDetailIconSizeHeight;
+            width: 3.5rem;
+            height: 3.5rem;
       }
       &__contactDetailIcon--address {
-            width: calc(#{$contactDetailIconSizeWidth} - .5rem);
-            height: calc(#{$contactDetailIconSizeHeight} - .5rem);
+            width: calc(#{3.5rem} - .5rem);
+            height: calc(#{3.5rem} - .5rem);
       }
       &__contactGoogleMapsIframeContainer {
-            border: 2px solid $cp-shamrockGreen;
-            box-shadow: 0 0 12px 1px rgba($cp-richBlack, .35);
+            border: 2px solid $black;
+            box-shadow: 0 0 12px 1px rgba($black, .35);
             width: min(100%, 45rem);
             padding: .25rem;
             margin-top: .75rem;
