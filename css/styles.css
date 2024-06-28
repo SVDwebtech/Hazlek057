@@ -363,18 +363,24 @@ body {
   line-height: 1;
 }
 
-.logo__text {
+.logo__textHeading {
+  color: #e60000;
+  font-family: "Lato", sans-serif;
+  font-size: clamp(1.8rem, 5.5vw, 2rem);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.logo__textSubheading {
   color: #000000ff;
   font-family: "Lato", sans-serif;
-  font-size: clamp(1.4rem, 4.5vw, 1.6rem);
+  font-size: clamp(1rem, 4.4vw, 1.2rem);
   font-weight: 700;
   text-align: left;
-  line-height: 1.1;
-}
-@media (min-width: 56.25em) {
-  .logo__text {
-    text-align: justify;
-  }
+  text-transform: capitalize;
+  line-height: 1;
 }
 
 .contact {
@@ -442,6 +448,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 .logo__imgWrapper {
@@ -453,31 +460,13 @@ body {
   height: auto;
   clip-path: polygon(25% 0%, 75% 0%, 100% 55%, 75% 100%, 25% 100%, 0% 50%);
 }
-.logoAndNumbers {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: clamp(.12rem, 3vw, 4rem);
-  position: relative;
-  z-index: 100;
+.logo__textSubheading {
+  margin-left: 0.15rem;
 }
 
-.numbers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-.numbers__landlineContainer, .numbers__whatsappContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.275rem;
-}
-.numbers__icon {
-  height: 14px;
-  width: 14px;
+.logoSection {
+  position: relative;
+  z-index: 100;
 }
 
 .contactIconsContainer {
@@ -1566,7 +1555,8 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #eff32bff;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
+  width: 100%;
   visibility: hidden;
   opacity: 0;
   position: fixed;

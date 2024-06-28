@@ -1,6 +1,7 @@
 // style logo
 .logo {
       @include displayFlexRow;
+      justify-content: flex-start;
       gap: .5rem;
       &__imgWrapper {
             filter: drop-shadow(0px 3px 5px rgba($black, 0.65));
@@ -11,7 +12,7 @@
           height: auto;
           clip-path:polygon(25% 0%, 75% 0%, 100% 55%, 75% 100%, 25% 100%, 0% 50%);
       }
-      &__text {
-          
+      &__textSubheading {
+          margin-left: .15rem;
       }
   }

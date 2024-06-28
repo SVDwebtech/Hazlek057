@@ -1,28 +1,7 @@
 // style navigation
-.logoAndNumbers {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      gap: clamp(.12rem, 3vw, 4rem);
+.logoSection {
       position: relative;
       z-index: 100;
-  }
-  .numbers {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 1rem;
-      &__landlineContainer, &__whatsappContainer {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: .275rem;
-      }
-      &__icon {
-          height: 14px;
-          width: 14px;
-      }
   }
   .contactIconsContainer {
       order: 2;
