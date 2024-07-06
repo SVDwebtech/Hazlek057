@@ -1,99 +1,83 @@
 .header { 
-      padding: 2rem 0 0;
-      margin-bottom: 5rem;
+      
 }
 .hero {
       @include displayFlexColumn;
-      gap: 5rem;
-      width: min(100%, 45rem);
-      min-height: 95vh;
-      padding: 1rem;
-      margin: 0 auto;
-      @include respond(tab-port) {
-            width: min(100%, 55rem);
+      gap: 2rem;
+      &__logoImgContainerAndContent {
+            @include displayFlexColumn;
+            align-items: stretch;
+            gap: 1rem;
+            background-color: $black;
+      }
+      &__logoImgContainer {
+            @include displayFlexColumn;
+            gap: 1rem;
+            padding-top: 3rem;
+            width: 100%;
+            background-color: $yellow;
+            clip-path: polygon(0% 50%, 0% 0%, 100% 0%, 100% 90%, calc(50% + 8.25rem) 65%, calc(50% + 4.75rem) 89%, calc(50% - 4.75rem) 89%, calc(50% - 8.25rem) 65%, 0% 90%);
+      }
+      &__logoImg {
+            display: block;
+            width: 22rem;
+            height: auto;
+            margin: 0 auto;
+            filter: drop-shadow(0 3px 1.5rem rgba($black, .65));
+      }
+      &__content {
+            @include displayFlexColumn;
+            gap: 1rem;
+            padding: 0 1rem 4rem;
+      }
+      &__contentText {
+            width: min(100%, 45rem);
       }
       @include respond(tab-land) {
-            width: min(100%, 75rem);
-            padding: 1rem 5rem;
+            &__logoImgContainerAndContent {
+                  @include displayFlexRow;
+                  gap: 0rem;
+                  align-items: stretch;
+            }
+            &__logoImgContainer {
+                  padding: 5rem 0 5rem 6rem;
+                  max-width: min(65%, 45rem);
+                  clip-path: polygon(0% 0%, 100% 0%, calc(50% + 9.43rem) 21%, calc(50% + 16.2rem) 50%, calc(50% + 9.43rem) 79%, 100% 100%, 0% 100%);
+            }
+            &__logoImg {
+                  width: 30rem;
+            }
+            &__content {
+                  flex: 1 0 45rem;
+                  align-items: flex-start;
+                  padding: 4rem;
+            }
+            &__contentText {
+                  width: min(100%, 30rem);
+            }
       }
       @include respond(desk) {
-            width: min(100%, 100rem);
-      }
-      &__heroLogoAndCtaContainer {
-            @include displayFlexColumn;
-            @include respond(tab-land) {
+            &__logoImgContainerAndContent {
                   @include displayFlexRow;
-                  align-items: flex-start;
-                  gap: 5rem;
+                  gap: 0rem;
+                  align-items: stretch;
             }
-      }
-      &__heroHeading {
-            @include displayFlexColumn;
-            gap: .75rem;
-            @include respond(tab-land) {
-                  flex: 1 0 45%;
+            &__logoImgContainer {
+                  max-width: min(65%, 55rem);
             }
-            @include respond(desk) {
-                  flex: 1 0 35%;
+            
+            &__content {
+                  flex: 1 0 55rem;
             }
-      }
-      &__cta {
-            @include displayFlexColumn;
-            gap: 2rem;
-            @include respond(tab-land) {
-                  align-items: flex-start;
+            &__contentText {
+                  width: 75%;
             }
-      }
-      &__heroCredentialsContainer {
-            @include displayFlexColumn;
-            background: linear-gradient(135deg, rgba($silver, 1), rgba($silver, .5), rgba($silver, .95));
-            border: 2px solid $black;
-            box-shadow: 0 0 12px 2px rgba($black, .25);
-            width: 100%;
-            padding: 2rem;
-      }
-      &__figureContainer {
-            @include displayFlexRow;
-      }
-      &__figure {
-            @include displayFlexColumn;
-            gap: .25rem;
-            background-color: $silver;
-            box-shadow: 2px 2px 3px 1px rgba($black, .25);
-            padding: .5rem;
-      }
-      &__figcaption {
-            display: none;
-      }
-      &__heroFigureImg {
-            display: block;
-            width: 8rem;
-            height: auto;
       }
 }
-.heroHeadingPrimary {
+.primaryHeading {
       @include displayFlexColumn;
-      gap: 1.75rem;
-      @include respond(tab-port) {
-            @include displayFlexRow;
-      }
+      gap: .25rem;
       @include respond(tab-land) {
-            @include displayFlexColumn;
-      }
-      &__heroHeadingPrimaryLogoImg {
-            display: block;
-            width: clamp(18rem, 22vw, 24rem);
-            @include respond(tab-port) {
-                  width: clamp(10rem, 18vw, 14rem);
-            }
-            @include respond(tab-land) {
-                  order: 2;
-            }
-            height: auto;
-            border-radius: $br-cirle;
-            box-shadow: -5px 5px 12px 2px rgba($black, .35);
-      }
-      &__heroHeadingPrimaryText {
-            width: 100%;
+            align-items: flex-start;
       }
 }
