@@ -59,7 +59,8 @@ body {
 	letter-spacing: 3px;
 	&--heroCredentials {
 		color: $black;
-		letter-spacing: 1px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
 		text-decoration: underline;
 		text-underline-offset: 3px;
 	}
