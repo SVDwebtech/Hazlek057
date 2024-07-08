@@ -1,11 +1,4 @@
 .sidebar {
-      @include respond(tab-land) {
-            
-      }
-}
-
-.socialMedia {
-      @include displayFlexColumn;
       width: min(100%, 45rem);
       @include respond(tab-port) {
             width: min(100%, 55rem);
@@ -18,7 +11,11 @@
       @include respond(desk) {
             width: min(100%, 100rem);
       }
-      padding: 0 1rem;
+}
+
+.socialMedia {
+      @include displayFlexColumn;
+      padding: 0 0rem;
       margin: 0 auto 5rem;
       &__sectionContentWrapper {
             @include displayFlexColumn;
@@ -30,16 +27,15 @@
             }
       }
       &__socialMediaArticle {
-            @include displayFlexColumn;
+            @include displayFlexRow;
             gap: .5rem;
-            @include respond(tab-land) {
-                  align-items: flex-start;
-                  flex: 1 0 340px;
-            }
       }
       &__socialMediaDetailIcon {
             width: 3.5rem;
             height: 3.5rem;
             margin-top: .5rem;
+      }
+      @include respond(tab-land) {
+            align-items: flex-start;
       }
 }
