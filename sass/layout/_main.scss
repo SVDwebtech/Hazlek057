@@ -75,7 +75,7 @@ main {
             align-items: flex-start;
             gap: .5rem;
             // background: linear-gradient(135deg, rgba($silver, 1), rgba($silver, .5), rgba($silver, .95));
-            background: linear-gradient(135deg, rgba($yellow, .5), rgba($yellow, 1), rgba($yellow, 1), rgba($black, .75));
+            background: linear-gradient(135deg, rgba($yellow, .5), rgba($yellow, .45), rgba($yellow, .85), rgba($yellow, 1));
             border: 2px solid $black;
             border-radius: $br-small;
             box-shadow: $bs-dark;
@@ -183,14 +183,34 @@ main {
       &__processListItem {
             @include displayFlexColumn;
             gap: .5rem;
-            background: linear-gradient(135deg, rgba($silver, 1), rgba($silver, .5), rgba($silver, .95));
+            background: linear-gradient(135deg, rgba($yellow, .5), rgba($yellow, .45), rgba($yellow, .85), rgba($yellow, 1));
             border: 2px solid $black;
+            border-radius: $br-small;
             // box-shadow: $black;
+            box-shadow: $bs-dark;
             width: 100%;
             padding: 2rem;
             @include respond(tab-land) {
                   align-items: flex-start;
-                  flex: 1 0 350px;
+                  flex: 1 0 450px;
+            }
+      }
+      &__headingH3Container {
+            @include displayFlexColumn;
+            gap: .25rem;
+            @include respond(tab-land) {
+                  @include displayFlexRow;
+                  align-items: flex-end;
+                  gap: .5rem;
+                  margin-bottom: 1.25rem;
+            }
+      }
+      &__processListIcon {
+            width: 10rem;
+            height: 10rem;
+            margin-bottom: 1rem;
+            @include respond(tab-land) {
+                  margin-bottom: -1.25rem;
             }
       }
       &__servicesArticle {
@@ -218,5 +238,8 @@ main {
             width: 100%;
             height: auto;
             padding: .25rem;
-      }    
+      } 
+      &__processBtn {
+            margin-top: 3rem;
+      }
 }

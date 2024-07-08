@@ -73,6 +73,7 @@ body {
 	&--servicesListItemHeading {
 		color: $black;
 		font-size: clamp(1.5rem, 5vw, 1.7rem);
+		letter-spacing: 1px;
 		text-align: left;
 		line-height: 1.1;
 		@include respond(tab-land) {
@@ -82,10 +83,11 @@ body {
 	&--processListItemHeading {
 		color: $black;
 		font-size: clamp(1.5rem, 5vw, 1.7rem);
+		letter-spacing: 1px;
 		text-align: center;
 		line-height: 1.1;
 		@include respond(tab-land) {
-			text-align: justify;
+			text-align: left;
 		}
 	}
 	&--footerFigure {
