@@ -4,7 +4,6 @@
 .hero {
       @include displayFlexColumn;
       gap: 2rem;
-      background-color: $silver;
       &__logoImgContainerAndContent {
             @include displayFlexColumn;
             align-items: stretch;
