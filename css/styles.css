@@ -786,7 +786,6 @@ body {
 @media (min-width: 56.25em) {
   .sidebar {
     width: min(100%, 75rem);
-    align-items: flex-start;
     padding: 1rem 5rem;
   }
 }
@@ -804,6 +803,7 @@ body {
   gap: 2rem;
   padding: 0 0rem;
   margin: 0 auto 5rem;
+  position: relative;
 }
 .socialMedia__sectionContentWrapper {
   display: flex;
