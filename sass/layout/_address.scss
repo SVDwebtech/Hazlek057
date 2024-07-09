@@ -8,6 +8,7 @@
             width: min(100%, 55rem);
       }
       @include respond(tab-land) {
+            align-items: flex-start;
             width: min(100%, 75rem);
             padding: 1rem 5rem;
       }

@@ -182,7 +182,7 @@ main {
             @include displayFlexColumn;
             gap: 2rem;
             @include respond(tab-land) {
-                  // align-items: flex-start;
+                  align-items: flex-start;
             }
       }
       &__processList {

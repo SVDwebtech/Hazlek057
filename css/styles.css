@@ -681,6 +681,7 @@ body {
 }
 @media (min-width: 56.25em) {
   .contact {
+    align-items: flex-start;
     width: min(100%, 75rem);
     padding: 1rem 5rem;
   }
@@ -1570,6 +1571,11 @@ body {
   align-items: center;
   gap: 2rem;
   gap: 2rem;
+}
+@media (min-width: 56.25em) {
+  .process__sectionContentWrapper {
+    align-items: flex-start;
+  }
 }
 .process__processList {
   display: flex;
