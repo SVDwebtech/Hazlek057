@@ -1237,7 +1237,7 @@ body {
   width: clamp(7rem, 23vw, 10rem);
   height: auto;
   border: 3px solid black;
-  border-radius: 10000px;
+  border-radius: 1rem;
   box-shadow: -4px 4px 9px 3px rgba(0, 0, 0, 0.45);
 }
 @media (min-width: 56.25em) {
@@ -1351,7 +1351,7 @@ body {
 .about__figureImg {
   display: block;
   border: 3px solid #000000ff;
-  border-radius: 10000px;
+  border-radius: 1rem;
   background: linear-gradient(150deg, rgba(239, 243, 43, 0.5), #eff32b, rgba(0, 0, 0, 0.75) 82%);
   box-shadow: -4px 4px 8px 3px rgba(0, 0, 0, 0.45);
   width: 25rem;

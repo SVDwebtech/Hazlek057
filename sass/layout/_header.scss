@@ -95,7 +95,7 @@
             width: clamp(7rem, 23vw, 10rem);
             height: auto;
             border: 3px solid rgba($black, 1);
-            border-radius: $br-circle;
+            border-radius: $br-small;
             box-shadow: -4px 4px 9px 3px rgba($black, .45) ;
       }
       @include respond(tab-land) {

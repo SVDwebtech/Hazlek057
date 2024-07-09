@@ -41,7 +41,7 @@ main {
       &__figureImg {
             display: block;
             border: 3px solid $black;
-            border-radius: $br-circle;
+            border-radius: $br-small;
             background: linear-gradient(150deg, rgba($yellow, .5), rgba($yellow, 1), rgba($black, .75)82%);
             box-shadow: -4px 4px 8px 3px rgba($black, .45);
             width: 25rem;
