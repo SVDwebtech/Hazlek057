@@ -17,6 +17,19 @@ main {
       @include respond(desk) {
             width: min(100%, 100rem);
       }
+      // &__headingH2Container {
+      //       @include displayFlexRow;
+      //       align-items: flex-end;
+      //       gap: .75rem;
+      // }
+      // &__headingH2Img {
+      //       display: block;
+      //       width: 3rem;
+      //       height: auto;
+      // }
+      // &__headingH2 {
+      //       // margin-bottom: 1rem;
+      // }
       &__figure {
             @include displayFlexColumn;
             @include respond(tab-land) {

@@ -1,0 +1,13 @@
+.headingH2Container {
+      @include displayFlexRow;
+      // align-items: flex-end;
+      gap: .75rem;
+      &__headingH2Img {
+            display: block;
+            width: 5rem;
+            height: auto;
+      }
+      &__headingH2 {
+            // margin-bottom: 1rem;
+      }
+}
