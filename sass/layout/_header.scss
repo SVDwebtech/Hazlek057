@@ -9,6 +9,7 @@
             align-items: stretch;
             gap: 1rem;
             background-color: $black;
+            box-shadow: 0 5px 12px 3px rgba($black, .65);
       }
       &__logoImgContainer {
             @include displayFlexColumn;
