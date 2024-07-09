@@ -98,6 +98,32 @@ body {
 		text-transform: uppercase;
 		text-align: center;
 		letter-spacing: 2px;
+		line-height: 1.1;
+		@include respond(tab-land) {
+			text-align: left;
+		}
+	}
+	&--footerSocialMedia {
+		color: $black;
+		font-family: "Montserrat", sans-serif; 
+		font-size: clamp(1.8rem, 5vw, 2.4rem);
+		font-weight: 900;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 2px;
+		line-height: 1.2;
+		@include respond(tab-land) {
+			text-align: justify;
+		}
+	}
+	&--footerWebsiteNavigationHeading {
+		color: $black;
+		font-family: "Montserrat", sans-serif; 
+		font-size: clamp(1.8rem, 5vw, 2.4rem);
+		font-weight: 900;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: 2px;
 		line-height: 1.2;
 		@include respond(tab-land) {
 			text-align: justify;
@@ -159,6 +185,7 @@ body {
 		font-weight: 700;
 	}
 	&--footerAddress {
+		color: $black;
 		font-size: clamp(1.6rem, 5.2vw, 2rem);
 		font-weight: 700;
 		line-height: 1.1;
@@ -168,6 +195,7 @@ body {
 	}
 	&--footerAddressDetail {
 		color: $black;
+		text-align: left;
 		text-decoration: underline;
 		text-underline-offset: 3px;
 		@include respond(tab-land) {
@@ -175,6 +203,8 @@ body {
 		}
 	}
 	&--footerCopyright {
+		color: $black;
+		font-weight: 900;
 		font-size: clamp(1.2rem, 5vw, 2rem);
 	}
 	&--footerDeveloper {
@@ -209,8 +239,11 @@ body {
 		text-decoration: underline;
 		text-underline-offset: 3px;
 	}
-	&--footerNavlinkDev {
+	&--footerNavlink {
 		color: $black;
+	}
+	&--footerNavlinkDev {
+		color: $red;
 		font-weight: 700;
 		text-decoration: underline;
 		text-underline-offset: 3px;
