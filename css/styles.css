@@ -99,7 +99,7 @@ body {
   color: #000000ff;
   font-size: clamp(1.4rem, 4.5vw, 1.6rem);
   font-weight: 400;
-  background-color: #edead4ff;
+  background-color: #dedede;
   /* This makes dealing with the sizes of elements much easier, 
   	and generally eliminates a number of pitfalls you can stumble on
   	 while laying out your content. */
@@ -137,7 +137,7 @@ body {
 }
 
 .primaryHeading {
-  color: #edead4ff;
+  color: #dedede;
   line-height: 1;
 }
 .primaryHeading__ownerName, .primaryHeading__serviceDescription {
@@ -287,7 +287,7 @@ body {
   line-height: 1.6;
 }
 .paragraph--contentText {
-  color: #edead4ff;
+  color: #dedede;
 }
 .paragraph--servicesListItemParagraph {
   text-align: left;
@@ -313,6 +313,7 @@ body {
 .paragraph--contactArticle {
   color: #000000ff;
   font-weight: 700;
+  text-align: left;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -711,6 +712,10 @@ body {
     gap: 5rem;
   }
 }
+.contact__contactAddressParagraph {
+  width: fit-content;
+  padding-top: 0.4rem;
+}
 .contact__contactArticle {
   display: flex;
   flex-direction: column;
@@ -741,6 +746,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  align-items: flex-start;
   gap: 0.75rem;
 }
 .contact__contactDetailIcon {

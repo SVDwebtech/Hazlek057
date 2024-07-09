@@ -27,6 +27,10 @@
                   gap: 5rem;
             }
       }
+      &__contactAddressParagraph {
+            width: fit-content;
+            padding-top: .4rem;
+      }
       &__contactArticle {
             @include displayFlexColumn;
             gap: .5rem;
@@ -45,11 +49,13 @@
       }
       &__contactDetailItem {
             @include displayFlexRow;
+            align-items: flex-start;
             gap: .75rem;
       }
       &__contactDetailIcon {
             width: 3.5rem;
             height: 3.5rem;
+            // margin-bottom: 3rem;
       }
       &__contactDetailIcon--address {
             width: calc(#{3.5rem} - .5rem);
