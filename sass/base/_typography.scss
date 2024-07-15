@@ -163,6 +163,9 @@ body {
 	line-height: 1.6;
 	&--contentText {
 		color: $eggshell;
+		@include respond(tab-land) {
+			text-align: left;
+		}
 	}
 	&--servicesListItemParagraph {
 		text-align: left;

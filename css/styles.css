@@ -296,6 +296,11 @@ body {
 .paragraph--contentText {
   color: #dedede;
 }
+@media (min-width: 56.25em) {
+  .paragraph--contentText {
+    text-align: left;
+  }
+}
 .paragraph--servicesListItemParagraph {
   text-align: left;
   line-height: 1.2;
