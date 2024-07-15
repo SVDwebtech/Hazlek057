@@ -151,6 +151,13 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+.primaryHeading__serviceDescriptionMIE {
+  text-transform: capitalize;
+}
+.primaryHeading__serviceDescriptionMIEAbr {
+  text-transform: uppercase;
+}
+
 .headingH2 {
   color: #000000ff;
   font-family: "Days One", sans-serif;

@@ -35,6 +35,12 @@ body {
 	&__serviceDescription {
 
 	}
+	&__serviceDescriptionMIE {
+		text-transform: capitalize;
+	}
+	&__serviceDescriptionMIEAbr {
+		text-transform: uppercase;
+	}
 
 }
 .headingH2 {
